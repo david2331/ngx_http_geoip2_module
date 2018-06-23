@@ -4,7 +4,7 @@ This is the script to compile the Nginx 1.15.0 with ngx_http_geoip2_module and i
 
 I also include the Nginx configuration as well as the geoblock script where you may kick start from here to customize to fix your needs on the country block features.
 
-##Installation##
+## Installation
 1. Add the maxmind repo into the Ubunto repo list and update the list
 ```
 sudo add-apt-repository ppa:maxmind/ppa && \
