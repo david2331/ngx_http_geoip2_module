@@ -1,5 +1,8 @@
-# ngx_http_geoip2_module
+# Nginx 1.15.0 with ngx_http_geoip2_module and GeoIP2 database
 
+This is the script to compile the Nginx 1.15.0 with ngx_http_geoip2_module and install the Nginx into the server. Beside that the script also also help to download the free version of Maxmind GeoIP2 country database and located it in the Nginx folder.
+
+I also include the Nginx configuration as well as the geoblock script where you may kick start from here to customize to fix your needs on the country block features.
 
 sudo add-apt-repository ppa:maxmind/ppa && \
 sudo apt update && sudo apt upgrade -y && \
