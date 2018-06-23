@@ -174,5 +174,6 @@ sudo wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.mm
 sudo gunzip GeoLite2-Country.mmdb.gz
 ```
 
-
+## Config example
+nginx.conf
 
