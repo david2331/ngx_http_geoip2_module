@@ -1,0 +1,13 @@
+set $geoblock 0;
+	if ($geoip2_data_country_code!~ (DK|NO|SE|MY)) {
+	set $geoblock 1;
+}
+ 
+if ($whitelistip = 1){
+	set $geoblock 0;
+}
+ 
+
+if ($geoblock = 1){
+	rewrite ^ http://www.google.com/;
+}
